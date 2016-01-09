@@ -1,0 +1,575 @@
+  <scene>
+  <spawn position="0 13 2" />
+  <link href="chase.xml" position="0 1 -6.7" rotation="0 0 0" />
+  <skybox style="color: linear-gradient(#555, #000)" />
+  <box id="black" position="0 10.1 11" rotate="0 0.3 0" scale="20 20 40" style="collision: none; texture-repeat: 40 20; texture-map: url(/images/box.png); double-sided: true" />
+
+  <billboard id="turnaround" position="0 15 -6.5" scale="16 9 0.1"><![CDATA[
+      <center style="font-size:2em;position:relative;top:40%;transform:translateY(-50%);">
+        <h1>TURN</h1>
+        <h1>AROUND</h1>
+      </center>
+  ]]></billboard>
+
+  <box id="backwall" position="0 10 -7" scale="18 20 0.25" style="color: #f07" />
+  <box id="landing" position="0 7 -2" scale="18 0.25 10" style="color: #f07" />
+
+  <box id="ramp" position="-8 3.5 8.2" scale="2 12.7 0.25" style="color: #f07" rotation="-0.9827949 0 0"/>
+  <box id="row_g" position="1 7.9 3.0" scale="16 0.5 0.25" style="color: #f07" />
+  <box id="row_g" position="1 6.95 3.5" scale="16 0.25 1.5" style="color: #f07" />
+  <box id="row_f" position="1 6 5" scale="16 0.25 1" style="color: #f07" />
+  <box id="row_e" position="1 5 6.5" scale="16 0.25 1" style="color: #f07" />
+  <box id="row_d" position="1 4 8" scale="16 0.25 1" style="color: #f07" />
+  <box id="row_c" position="1 3 9.5" scale="16 0.25 1" style="color: #f07" />
+  <box id="row_b" position="1 2 11" scale="16 0.25 1" style="color: #f07" />a
+  <box id="row_a" position="1 1 12.5" scale="16 0.25 1" style="color: #f07" />
+
+  <box id="stage" position="0 0.125 18.3" scale="18 0.25 10" style="color: #f07" />
+  <box id="lectern" position="8 0.5 20" scale="1 1.25 0.5" style="color: #f07" />
+  <box id="next" position="7.75 1.124 20" scale="0.3 0.01 0.3" style="color: #fff; texture-map: url(/images/next.png)" />
+  <box id="previous" position="8.25 1.124 20" scale="0.3 0.01 0.3" style="color: #fff; texture-map: url(/images/previous.png)" />
+
+
+  <billboard id="screen_odd" position="0 9.5 27.01" scale="18 18 0.1" rotation="-0.2 3.14159 0"><![CDATA[
+  ]]></billboard>
+  <billboard id="screen_even" position="0 9.5 27" scale="18 18 0.1" rotation="-0.2 3.14159 0"><![CDATA[
+  ]]></billboard>
+
+  <billboard id="notes" position="8 0.69 20.25" scale="0.85 0.82 0.001"><![CDATA[
+  ]]></billboard>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>CampJS VI</h1>
+      <h2>Goldcoast 2015</h2>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h2>a.k.a.</h2>
+      <h1>What I did <br> on my holiday</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>CampJS</h1>
+      <h2>&bull; What is it?</h2>
+      <h2>&bull; Who is it for?</h2>
+      <h2>&bull; Why do we go?</h2>
+      <h2>&bull; Why should you go?</h2>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h2>But first!</h2>
+      <br>
+      <h1>Granny was a hacker</h1>
+      <p>Kris Howard</p>
+      <p><a href="https://www.youtube.com/watch?v=eS9bI7KDmeU">Watch!</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:100%" src="/images/campjs/knitters.png" alt="Full of noobs">
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>1. Undefined is<br>not a function</h1>
+      <h2><em>A guide to the care and feeding of new devs</em></h2>
+      <p>http://git.io/v41CJ</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <img style="max-width:100%" src="/images/campjs/undefined-is-not-a-function.jpg" alt="Amy Simmons">
+    <center><h3><em>Amy Simmons, @amesimmons</em></h3></center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      Excited+Overwhelmed+Frustrated+Fear
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <quote>&ldquo;Only went home crying once<br>in the last six months&rdquo;</quote>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Juniors</h1>
+      <p>are embarrassed to ask</p>
+      <p>are supposed to know more</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h2>&ldquo;Foster a supportive environment where juniors can be vulnerable without fear&rdquo;</h2>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Recommendations</h1>
+      <p>&bull; Weekly pair programming with a senior</p>
+      <p>&bull; Code Reviews</p>
+      <p>&bull; Onboarding</p>
+      <p>&bull; Open source</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Knowledge is continuous!</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>It's probably the same in every industry</h1>
+      <br>
+      <p>but IT has more made up words</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:100%" src="/images/campjs/full-of-noobs.jpg" alt="Full of noobs">
+      <p>We're all noobs</p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Who is CampJS for?</h1>
+      <p>&bull; All ages</p>
+      <p>&bull; All genders</p>
+      <p>&bull; All levels of skill</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Who is CampJS for?</h1>
+      <p>&bull; Programmers</p>
+      <p>&bull; Managers</p>
+      <p>&bull; Artists</p>
+      <p>&bull; Musicians</p>
+      <p>&bull; Magicians</p>
+      <p>&bull; Web personalities</p>
+      <p>&bull; Sponsors</p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>2. Data Visualisation</h1>
+      <h2>An unnecessary history</h2>
+      <p>&bull; Pioneered by Willian Playfair 1759 - 1823</p>
+      <p>&bull; credited with inventing the line, bar,<br>and pie charts.</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center>
+      <img style="max-width:100%" src="/images/campjs/pie.png" alt="Pie chart">
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <img style="max-width:100%" src="/images/campjs/bar.png" alt="Bar chart">
+  ]]></slide>
+  <slide><![CDATA[
+    <img style="max-width:100%" src="/images/campjs/time-series.png" alt="Time series graph">
+    <center><h3><em>Clear data is invaluable</em></h3></center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Poorly presented data is garbage</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>The purpose of data visualisation lies on a spectrum</h1>
+      <br>
+      <h1>SCIENCE <---> ART</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <p>&bull; Data science <strong><--- SCIENCE</strong></p>
+    <p>&bull; Computer science</p>
+    <p>&bull; Statistics</p>
+    <br>
+    <p>&bull; Creative coding</p>
+    <p>&bull; Cartography</p>
+    <br>
+    <p>&bull; Graphic design</p>
+    <p>&bull; Information design</p>
+    <p>&bull; Journalism <strong><--- ART</strong></p>
+  ]]></slide>
+  <slide><![CDATA[
+    <h1>Why?</h1>
+    <p>&bull; Art (data artists)</p>
+    <p>&bull; Story telling (http://guns.periscopic.com)</p>
+    <p>&bull; Explain a product</p>
+    <p>&bull; Exploration (big data)</p>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Motion tracked dance data</h1>
+      <h2>by Ri Liu</h2>
+      <p>Ri's work http://ri.id.au/</p>
+      <p>Motion tracking http://motion-data.studiometric.co/</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Dancer loved it</h1>
+      <h1>:D</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Teacher didn't get it</h1>
+      <h1>:\</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <h1>Recommendations</h1>
+    <p>&bull; Learn D3.js and Raphael/Snap.svg</p>
+    <p>&bull; Abstractions like Highcharts only let you colour inside the lines</p>
+    <p>&bull; Generate throwaways</p>
+    <p>&bull; Be inspired - http://twitter.com/riblah</p>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>3. Legals for Developers</h1>
+      <p>Kay Lam-MacLeod</p>
+      <p>Idea Lawyer</p>
+      <p>@IdeaLaw</p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>3. Making Games for the Web</h1>
+      <p>Not "How To Makes Games"</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <img style="max-width:100%" src="/images/campjs/ash.jpg" alt="Ash Kyd">
+    <center><h3><em>Ash Kyd, <a href="http://ash.ms">http://ash.ms</a></em></h3></center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>TEACH YOURSELF <br>to make games</h1>
+      <p>Make something achievable</p>
+      <p>Work to your strengths</p>
+      <p>Take ALL the shortcuts</p>
+      <p>Prototype with familiar tech</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Pixi.js</h1>
+      <p>Just a rendering engine</p>
+      <p>2D WebGL renderer with canvas fallback</p>
+      <p><a href="http://www.pixijs.com/">http://www.pixijs.com/</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Phaser</h1>
+      <p>Built on Pixi</p>
+      <p>A Fast, fun and free open source framework <br>for canvas and WebGL powered browser games</p>
+      <p><a href="http://phaser.io/">http://phaser.io/</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Three.js</h1>
+      <p>WebGL engine </p>
+      <p>A JavaScript 3D Library <br>which makes WebGL simpler</p>
+      <p><a href="http://threejs.org/">http://threejs.org/</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Babylon.js</h1>
+      <p>A complete JavaScript framework <br>for building 3D games with <br>HTML5, WebGL and Web Audio</p>
+      <p><a href="http://www.babylonjs.com/">http://www.babylonjs.com/</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Incidentally!</h1>
+      <p>Three.js and Babylon.js are able to produce WebVR effects</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Cordova</h1>
+      <p>For building native mobile applications <br>using HTML, CSS and JavaScript</p>
+      <p><a href="https://cordova.apache.org/">https://cordova.apache.org/</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Electron</h1>
+      <p>Build cross platform desktop apps with web technologies</p>
+      <p><a href="https://cordova.apache.org/">http://electron.atom.io/</a></p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>4. SceneVR</h1>
+      <p>by Ben Nolan</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>Not even a session.</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>The actual session was...</p>
+      <h1>WebVR!</h1>
+      <p>What's the state of VR on the web, rendering techniques, and challenges</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Mozilla is [doing a lot of things]</p>
+      <p>&bull; Depth in CSS will be a thing</p>
+      <p>&bull; WebGL2 and web workers [will be great]</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <quote>If correctness is everything, work at Pixar. Realtime requires shortcuts.</quote>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <img style="max-width:100%" src="/images/campjs/webvr.jpg" alt="Ash Kyd">
+    <center><h3>I took this photo <br>because Marcus likes X-Wings</h3></center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>SceneVR!</h1>
+      <p>&bull; Mobile support (Supports Google Cardboard)</p>
+      <p>&bull; Multiplayer (with websockets)</p>
+      <p>&bull; Renders on server, streamed to clients</p>
+      <p>&bull; Portals to link to scenes</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Uses WebGL</p>
+      <p>&bull; Loads <strong>.xml</strong> scene descriptions</p>
+      <p>&bull; Imports <strong>.obj</strong> models</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Audio support</p>
+      <p>&bull; WebRTC voice chat</p>
+      <p>&bull; Uses OpenTok for server multiplexing</p>
+      <p>&bull; Server creates separate channel for each scene</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Script your worlds using JavaScript</p>
+      <p>&bull; Supports jQuery</p>
+      <p>&bull; Simulate physics with Cannon.js<br><a href="http://cannonjs.org">http://cannonjs.org</a></p>
+      <p>&bull; Renders with Three.js<br><a href="http://threejs.org">http://threejs.org</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Interoperable with JanusVR (<a href="http://janusvr.com/">http://janusvr.com/</a>)</p>
+      <p>&bull; Declarative VR markup, similar to</p>
+      <p>&nbsp;&ndash; A-frame by Mozilla</p>
+      <p>&nbsp;&ndash; Glam by Tony Parisi</p>
+      <p>&nbsp;&ndash; JanusVR by James McCrae</p>
+      <p>&nbsp;&ndash; Metaroom by Tee Jia Hen</p>
+      <p>The goal is to converge</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>The Easy way</h1>
+      <p>&bull; Download the editor/server app</p>
+      <p><a href="http://docs.scenevr.com/download.html">http://docs.scenevr.com/download.html</a></p>
+      <p>or</p>
+      <h1>The hard way</h1>
+      <p>&bull; Install using npm</p>
+      <p><code>npm install scenevr -g</code></p>
+      <p>(ask a dev)</p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>5. Creating <br>Command-line Tools <br>with NodeJS</h1>
+      <p>by Glen Arrowsmith</p>
+      <p>Prompts, spinners, tests, and more!</p>
+      <p><a href="http://ow.ly/VPBjf">http://ow.ly/VPBjf</a></p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>6. Hardware Hacking</h1>
+      <p><strong>Making Wearables</strong> <br>by Anna Gerber</p>
+      <p><strong>Lets Go Fly Kites</strong>, <br>by Glen Arrowsmith</p>
+      <p><strong>IoT Showbag</strong>, <br>everyone, all the time</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:100%" src="/images/campjs/balloons.jpg" alt="Balloons">
+      <h1>Hackers with balloons</h1>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <p>&bull; Learn new skills</p>
+      <p>&bull; Remind developers that <br>they can make real things</p>
+      <p>&bull; Go play outside for a while</p>
+      <p>&bull; Kites are awesome</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>The IoT showbag</h1>
+      <img style="max-width:100%" src="/images/campjs/esp8266.jpg" alt="IoT development board">
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Featuring ESP8266</h1>
+      <p>&bull; WiFi built-in</p>
+      <p>&bull; JavaScript programmable</p>
+      <p>&bull; Arduino compatible (so I can <br>buy ALL the sensors and things)</p>
+      <p>&bull; USB powered</p>
+      <h2>&bull; $4.89</h2>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>6. TypeScript</h1>
+      <p>&bull; Reduce errors</p>
+      <p>&bull; Improve understandability</p>
+      <p>&bull; Supports ES6</p>
+      <p>&bull; We'll get there eventually</p>
+    </center>
+  ]]></slide>
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Why do I go?</h1>
+      <p>&bull; Get inspired</p>
+      <p>&bull; Get help</p>
+      <p>&bull; Get smarter</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Why do I go?</h1>
+      <p>&bull; Talk to the authors and experts</p>
+      <p>&bull; Play with code</p>
+      <p>&bull; Catch up with friends</p>
+      <p>&bull; Community</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Why do I go?</h1>
+      <h2><i>"We bring rock stars from around Australia and around the world so you can see that the are normal people, and that you can be a normal person too" -- Tim Oxley, CampJS founder</i></h2>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>Why should you go?</h1>
+      <p>&bull; See what you could be doing (better?)</p>
+      <p>&bull; See what other people are doing</p>
+      <p>&bull; Expand yor skill set</p>
+      <p>&bull; Know what you can ask a dev to do!</p>
+      <h2>&bull; <i>Everyone should learn to code. Even just a little.</i></h2>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>What's next?</h1>
+      <p>&bull; CampJS Sydney</p>
+      <p>&bull; CampJS Singapore</p>
+      <p>&bull; NodeSchool at Meerkats</p>
+    </center>
+  ]]></slide>
+
+
+
+
+  <script><![CDATA[
+    var screenOdd = document.getElementById("screen_odd");
+    var screenEven = document.getElementById("screen_even");
+    var screens = [screenEven, screenOdd];
+    var notes = document.getElementById("notes");
+    var turnaround = document.getElementById("turnaround");
+    var index = 0;
+    var altIndex = 1;
+    var screenIndices = [index, altIndex];
+    var slides = [];
+
+    function parseSlides() {
+      slides = document.getElementsByTagName('slide');
+    }
+
+    function initSlides() {
+      index = 0;
+      altIndex = 1;
+      screens[(index % 2)].firstChild.data = slides[index].firstChild.data;
+      updateScreen();
+    }
+
+    function nextSlide() {
+      index = ++index % slides.length;
+      altIndex = (index+1) % slides.length;
+      updateScreen();
+    }
+
+    function previousSlide() {
+      index = (--index + slides.length) % slides.length;
+      altIndex = ((index - 1) + slides.length) % slides.length;
+      updateScreen();
+    }
+
+    function updateScreen() {
+      if (screenIndices[(index % 2)] !== index) {
+        screens[(index % 2)].firstChild.data = slides[index].firstChild.data;
+        screenIndices[(index % 2)] = index;
+      }
+      screens[(index % 2)].position.set(0, 9.5, 27);
+      screens[(altIndex % 2)].position.set(0, 9.5, 27.01);
+      setTimeout(function ()  {
+        screens[(altIndex % 2)].firstChild.data = slides[altIndex].firstChild.data;
+        screenIndices[(altIndex % 2)] = altIndex;
+      }, 500);
+      updateNotes();
+    }
+
+    function updateNotes() {
+      notes.firstChild.data = screens[(index % 2)].firstChild.data;
+    }
+
+    function setupControls() {
+      document.getElementById("previous").addEventListener('click', function () {
+        previousSlide();
+      });
+      document.getElementById("next").addEventListener('click', function () {
+        nextSlide();
+      });
+    }
+
+    parseSlides();
+    setupControls();
+    initSlides();
+  ]]></script>
+</scene>
