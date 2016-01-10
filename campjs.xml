@@ -69,8 +69,17 @@
     </center>
   ]]></slide>
   <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>What is CampJS?</h1>
+      <p>&bull; An event for the JavaScript community</p>
+      <p>&bull; Mixes expert-led, structured content and self-directed, unstructured learning</p>
+      <p>&bull; A full weekend to learn, relax, make friends, and network</p>
+      <p>&bull; Demos!</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
     <center style="position:relative;top:50%;transform:translateY(-50%);">
-      <img style="max-width:100%" src="/images/campjs/knitters.png" alt="Full of noobs">
+      <img style="max-width:100%" src="/images/campjs/knitters.png" alt="Knitting">
     </center>
   ]]></slide>
 
@@ -454,16 +463,6 @@
 
   <slide><![CDATA[
     <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>6. TypeScript</h1>
-      <p>&bull; Reduce errors</p>
-      <p>&bull; Improve understandability</p>
-      <p>&bull; Supports ES6</p>
-      <p>&bull; We'll get there eventually</p>
-    </center>
-  ]]></slide>
-
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
       <h1>Why do I go?</h1>
       <p>&bull; Get inspired</p>
       <p>&bull; Get help</p>
@@ -476,13 +475,13 @@
       <p>&bull; Talk to the authors and experts</p>
       <p>&bull; Play with code</p>
       <p>&bull; Catch up with friends</p>
-      <p>&bull; Community</p>
+      <p>&bull; Be with the kind of people<br>who love JavaScript enough<br>to travel interstate to wallow in it</p>
     </center>
   ]]></slide>
   <slide><![CDATA[
     <center style="position:relative;top:40%;transform:translateY(-50%);">
       <h1>Why do I go?</h1>
-      <h2><i>"We bring rock stars from around Australia and around the world so you can see that the are normal people, and that you can be a normal person too" -- Tim Oxley, CampJS founder</i></h2>
+      <h2><i>&ldquo;We bring rock stars from around Australia and around the world so you can see that the are normal people, and that you can be a normal person too&rdquo; -- Tim Oxley, CampJS founder</i></h2>
     </center>
   ]]></slide>
   <slide><![CDATA[
@@ -490,7 +489,7 @@
       <h1>Why should you go?</h1>
       <p>&bull; See what you could be doing (better?)</p>
       <p>&bull; See what other people are doing</p>
-      <p>&bull; Expand yor skill set</p>
+      <p>&bull; Expand your skill set</p>
       <p>&bull; Know what you can ask a dev to do!</p>
       <h2>&bull; <i>Everyone should learn to code. Even just a little.</i></h2>
     </center>
@@ -501,9 +500,81 @@
       <p>&bull; CampJS Sydney</p>
       <p>&bull; CampJS Singapore</p>
       <p>&bull; NodeSchool at Meerkats</p>
+      <p>&bull; Revive Perth.js</p>
     </center>
   ]]></slide>
 
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>7. ReactJS</h1>
+      <p>&bull; &ldquo;A JavaScript library for building user interfaces&rdquo;</p>
+      <p>&bull; The &ldquo;V&rdquo; in &ldquo;MVC&rdquo;, - independant of your technology stack</p>
+      <p>&bull; Simplifies creating your interface dynamically in the browser, pre-rendered on the server, or powering a native mobile application</p>
+      <p>&bull; Implements a one-way reactive data flow</p>
+      <p>&bull; We have adopted this for the new Meerkats website</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>8. ES2015 and Babel</h1>
+      <p>&bull; Formerly known as ES6</p>
+      <p>&bull; ECMA TC39 will be making constant additions to ECMAScript</p>
+      <p>&bull; It's no big deal</p>
+      <p>&bull; Use Babel to adopt new features without fear</p>
+      <p>&bull; We have adopted this for the new Meerkats website</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>9. Webpack</h1>
+      <p>&bull; Simple<sup>*</sup> build process specifically for web projects</p>
+      <p>&bull; I rejected this last year, but it hasn't gone away</p>
+      <p>&bull; We have adopted this for the new Meerkats website</p>
+      <p>&bull; * once you understand it :/</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>10. TypeScript</h1>
+      <p>&bull; Adds enforceable data types to JavaScript</p>
+      <p>&bull; Reduce errors, improve understandability</p>
+      <p>&bull; Enables Intellisense</p>
+      <p>&bull; Supports ES6</p>
+      <p>&bull; Works great with ReactJS</p>
+      <p>&bull; We'll get there eventually</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>11. CouchDB</h1>
+      <p>&bull; &ldquo;Cluster Of Unreliable Commodity Hardware (DB)&rdquo;</p>
+      <p>&bull; Extremely failure resistant</p>
+      <p>&bull; "If you get a response, your data is written and safe"</p>
+      <p>&bull; Clean shut down = pull the plug</p>
+      <p>&bull; Replicates between peers</p>
+      <p>&bull; Push or pull from any other CouchDB server</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>12. PouchDB</h1>
+      <p>&bull; The JavaScript database that syncs!</p>
+      <p>&bull; "PouchDB was created to help web developers build applications that work as well offline as they do online."</p>
+      <p>&bull; Replicate with CouchDB</p>
+      <p>&bull; Creates a new instance of PouchDB, sync with remote CouchDB - continuous replication</p>
+      <p>&bull; Manage with Resources > IndexedDB - or Chrome plugin</p>
+      <p>&bull; Can put HTML into local storage!</p>
+      <p>&bull; See also Couchbase Lite for mobile devices</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>12. Other things</h1>
+      <p>&bull; Falcor</p>
+      <p>&bull; Aspect-oriented Programming</p>
+      <p>&bull; Braintree Payments</p>
+    </center>
+  ]]></slide>
 
 
 
