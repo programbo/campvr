@@ -72,8 +72,8 @@
     <center style="position:relative;top:40%;transform:translateY(-50%);">
       <h1>What is CampJS?</h1>
       <p>&bull; An event for the JavaScript community</p>
-      <p>&bull; Mixes expert-led, structured content and self-directed, unstructured learning</p>
-      <p>&bull; A full weekend to learn, relax, make friends, and network</p>
+      <p>&bull; Mixes expert-led, structured content<br>and self-directed, unstructured learning</p>
+      <p>&bull; A full weekend to learn, relax, make friends,<br>and network</p>
       <p>&bull; Demos!</p>
     </center>
   ]]></slide>
@@ -273,32 +273,32 @@
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Pixi.js</h1>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:50%" src="/images/campjs/pixijs.png" alt="Pixi.js">
       <p>Just a rendering engine</p>
       <p>2D WebGL renderer with canvas fallback</p>
       <p><a href="http://www.pixijs.com/">http://www.pixijs.com/</a></p>
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Phaser</h1>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:50%" src="/images/campjs/phaser.png" alt="Phaser">
       <p>Built on Pixi</p>
       <p>A Fast, fun and free open source framework <br>for canvas and WebGL powered browser games</p>
       <p><a href="http://phaser.io/">http://phaser.io/</a></p>
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Three.js</h1>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:50%" src="/images/campjs/threejs.png" alt="Three.js">
       <p>WebGL engine </p>
       <p>A JavaScript 3D Library <br>which makes WebGL simpler</p>
       <p><a href="http://threejs.org/">http://threejs.org/</a></p>
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Babylon.js</h1>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:50%" src="/images/campjs/babylonjs.png" alt="Babylon.js">
       <p>A complete JavaScript framework <br>for building 3D games with <br>HTML5, WebGL and Web Audio</p>
       <p><a href="http://www.babylonjs.com/">http://www.babylonjs.com/</a></p>
     </center>
@@ -310,16 +310,16 @@
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Cordova</h1>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:50%" src="/images/campjs/cordova.png" alt="Cordova">
       <p>For building native mobile applications <br>using HTML, CSS and JavaScript</p>
       <p><a href="https://cordova.apache.org/">https://cordova.apache.org/</a></p>
     </center>
   ]]></slide>
   <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>Electron</h1>
-      <p>Build cross platform desktop apps with web technologies</p>
+    <center style="position:relative;top:50%;transform:translateY(-50%);">
+      <img style="max-width:75%" src="/images/campjs/electron.png" alt="Electron">
+      <p>Build cross platform desktop apps<br>with web technologies</p>
       <p><a href="https://cordova.apache.org/">http://electron.atom.io/</a></p>
     </center>
   ]]></slide>
@@ -461,6 +461,78 @@
     </center>
   ]]></slide>
 
+
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>7. ReactJS</h1>
+      <p>&bull; &ldquo;A JavaScript library for building user interfaces&rdquo;</p>
+      <p>&bull; The &ldquo;V&rdquo; in &ldquo;MVC&rdquo;, - independant of your technology stack</p>
+      <p>&bull; Simplifies creating your interface dynamically in the browser, pre-rendered on the server, or powering a native mobile application</p>
+      <p>&bull; Implements a one-way reactive data flow</p>
+      <p>&bull; We have adopted this<br>for the new Meerkats website</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>8. ES2015 and Babel</h1>
+      <p>&bull; Formerly known as ES6</p>
+      <p>&bull; ECMA TC39 will be making constant additions to ECMAScript</p>
+      <p>&bull; It's no big deal</p>
+      <p>&bull; Use Babel to adopt new features without fear</p>
+      <p>&bull; We have adopted this<br>for the new Meerkats website</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>9. Webpack</h1>
+      <p>&bull; Simple<sup>*</sup> build process specifically for web projects</p>
+      <p>&bull; I rejected this last year, but it hasn't gone away</p>
+      <p>&bull; We have adopted this<br>for the new Meerkats website</p>
+      <p>* once you understand it :/</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>10. TypeScript</h1>
+      <p>&bull; Adds enforceable data types to JavaScript</p>
+      <p>&bull; Reduce errors, improve understandability</p>
+      <p>&bull; Enables Intellisense</p>
+      <p>&bull; Supports ES201x</p>
+      <p>&bull; Works great with ReactJS</p>
+      <p>&bull; We'll get there eventually</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>11. CouchDB</h1>
+      <p>&bull; <b>C</b>luster <b>O</b>f <b>U</b>nreliable <b>C</b>ommodity <b>H</b>ardware (DB)</p>
+      <p>&bull; Extremely failure resistant</p>
+      <p>&bull; "If you get a response, your data is written<br>and safe"</p>
+      <p>&bull; Clean shut down = pull the plug</p>
+      <p>&bull; Replicates between peers</p>
+      <p>&bull; Push or pull from any other CouchDB server</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:43%;transform:translateY(-50%);">
+      <h1>12. PouchDB</h1>
+      <p>&bull; The JavaScript database that syncs!</p>
+      <p>&bull; "PouchDB was created to help web developers build applications that work as well offline as they do online."</p>
+      <p>&bull; Replicate with CouchDB</p>
+      <p>&bull; Create a new instance of PouchDB, sync with remote CouchDB - continuous replication</p>
+      <p>&bull; Manage with Resources > IndexedDB - or Chrome plugin</p>
+      <p>&bull; Can put HTML into local storage!</p>
+      <p>&bull; See also Couchbase Lite for mobile devices</p>
+    </center>
+  ]]></slide>
+  <slide><![CDATA[
+    <center style="position:relative;top:40%;transform:translateY(-50%);">
+      <h1>12. Other things</h1>
+      <p>&bull; Falcor</p>
+      <p>&bull; Aspect-oriented Programming</p>
+      <p>&bull; Braintree Payments</p>
+    </center>
+  ]]></slide>
   <slide><![CDATA[
     <center style="position:relative;top:40%;transform:translateY(-50%);">
       <h1>Why do I go?</h1>
@@ -481,7 +553,7 @@
   <slide><![CDATA[
     <center style="position:relative;top:40%;transform:translateY(-50%);">
       <h1>Why do I go?</h1>
-      <h2><i>&ldquo;We bring rock stars from around Australia and around the world so you can see that the are normal people, and that you can be a normal person too&rdquo; -- Tim Oxley, CampJS founder</i></h2>
+      <h2><i>&ldquo;We bring rock stars from around Australia and around the world so you can see that they are normal people, and that you can be a normal person too&rdquo; -- Tim Oxley, CampJS founder</i></h2>
     </center>
   ]]></slide>
   <slide><![CDATA[
@@ -501,78 +573,6 @@
       <p>&bull; CampJS Singapore</p>
       <p>&bull; NodeSchool at Meerkats</p>
       <p>&bull; Revive Perth.js</p>
-    </center>
-  ]]></slide>
-
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>7. ReactJS</h1>
-      <p>&bull; &ldquo;A JavaScript library for building user interfaces&rdquo;</p>
-      <p>&bull; The &ldquo;V&rdquo; in &ldquo;MVC&rdquo;, - independant of your technology stack</p>
-      <p>&bull; Simplifies creating your interface dynamically in the browser, pre-rendered on the server, or powering a native mobile application</p>
-      <p>&bull; Implements a one-way reactive data flow</p>
-      <p>&bull; We have adopted this for the new Meerkats website</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>8. ES2015 and Babel</h1>
-      <p>&bull; Formerly known as ES6</p>
-      <p>&bull; ECMA TC39 will be making constant additions to ECMAScript</p>
-      <p>&bull; It's no big deal</p>
-      <p>&bull; Use Babel to adopt new features without fear</p>
-      <p>&bull; We have adopted this for the new Meerkats website</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>9. Webpack</h1>
-      <p>&bull; Simple<sup>*</sup> build process specifically for web projects</p>
-      <p>&bull; I rejected this last year, but it hasn't gone away</p>
-      <p>&bull; We have adopted this for the new Meerkats website</p>
-      <p>&bull; * once you understand it :/</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>10. TypeScript</h1>
-      <p>&bull; Adds enforceable data types to JavaScript</p>
-      <p>&bull; Reduce errors, improve understandability</p>
-      <p>&bull; Enables Intellisense</p>
-      <p>&bull; Supports ES6</p>
-      <p>&bull; Works great with ReactJS</p>
-      <p>&bull; We'll get there eventually</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>11. CouchDB</h1>
-      <p>&bull; &ldquo;Cluster Of Unreliable Commodity Hardware (DB)&rdquo;</p>
-      <p>&bull; Extremely failure resistant</p>
-      <p>&bull; "If you get a response, your data is written and safe"</p>
-      <p>&bull; Clean shut down = pull the plug</p>
-      <p>&bull; Replicates between peers</p>
-      <p>&bull; Push or pull from any other CouchDB server</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>12. PouchDB</h1>
-      <p>&bull; The JavaScript database that syncs!</p>
-      <p>&bull; "PouchDB was created to help web developers build applications that work as well offline as they do online."</p>
-      <p>&bull; Replicate with CouchDB</p>
-      <p>&bull; Creates a new instance of PouchDB, sync with remote CouchDB - continuous replication</p>
-      <p>&bull; Manage with Resources > IndexedDB - or Chrome plugin</p>
-      <p>&bull; Can put HTML into local storage!</p>
-      <p>&bull; See also Couchbase Lite for mobile devices</p>
-    </center>
-  ]]></slide>
-  <slide><![CDATA[
-    <center style="position:relative;top:40%;transform:translateY(-50%);">
-      <h1>12. Other things</h1>
-      <p>&bull; Falcor</p>
-      <p>&bull; Aspect-oriented Programming</p>
-      <p>&bull; Braintree Payments</p>
     </center>
   ]]></slide>
 
